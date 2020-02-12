@@ -15,7 +15,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: lightgrey;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -68,5 +68,9 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+  }
+
+  .calendar-container {
+    display:none;
   }
   
